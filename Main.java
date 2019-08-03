@@ -34,6 +34,10 @@ public class Main {
 
         //Age-order sort
         printStudents(s.comparatorSort(memberList));
+
+        AddAndRemove ar = new AddAndRemove();
+        ar.addAll01();
+        ar.addAll02();
     }
 
     private static void printAL(ArrayList al) {
